@@ -12,10 +12,7 @@ The original design goals are:
  - no single point of failure
  - history of health data as a time series
 
-The agents communicate over a [Gossip] protocol implemented by [serf].
-
 ## Dependencies
- - [serf], v0.7.0 or later
  - [godep]
 
 ## Installation
@@ -78,9 +75,7 @@ Flags:
                                  Path to the docker daemon socket
   --nettest-image="gcr.io/google_containers/nettest:1.8"  
                                  Name of the image to use for networking test
-  --name=NAME                    Agent name. Must be the same as the name of the local serf node
-  --serf-rpc-addr="127.0.0.1:7373"  
-                                 RPC address of the local serf node
+  --name=NAME                    Agent name. Must be the same as the name of the local node
   --initial-cluster=INITIAL-CLUSTER  
                                  Initial cluster configuration as a comma-separated list of peers
   --state-dir=STATE-DIR          Directory to store agent-specific state
@@ -165,7 +160,6 @@ $ satellite agent --tags=role:master \
 [//]: # (Footnots and references)
 
 [Kubernetes]: <https://github.com/kubernetes/kubernetes>
-[serf]: <https://www.serfdom.io/downloads.html>
 [Go]: <https://golang.org/doc/install>
 [godep]: <https://github.com/tools/godep>
 [Setup GOPATH]: <https://golang.org/doc/code.html#GOPATH>
