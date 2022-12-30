@@ -4,7 +4,7 @@ go 1.13
 
 require (
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
-	github.com/aws/aws-sdk-go v1.25.41
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cloudfoundry/gosigar v1.1.1-0.20180406153506-1375283248c3
 	github.com/coreos/go-systemd/v22 v22.1.0
@@ -36,7 +36,6 @@ require (
 	github.com/mattn/go-sqlite3 v1.13.0
 	github.com/miekg/dns v1.1.26
 	github.com/mitchellh/go-ps v1.0.0
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/prometheus/client_golang v1.1.0
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4
 	github.com/prometheus/common v0.6.0
