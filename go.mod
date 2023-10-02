@@ -27,7 +27,7 @@ require (
 	github.com/hashicorp/memberlist v0.2.2 // indirect
 	github.com/hashicorp/serf v0.8.3
 	github.com/imdario/mergo v0.3.6 // indirect
-	github.com/influxdata/influxdb v1.5.1
+	github.com/influxdata/influxdb v1.7.6
 	github.com/jmoiron/sqlx v1.2.0
 	github.com/jonboulle/clockwork v0.1.1-0.20190114141812-62fb9bc030d1
 	github.com/kr/pretty v0.2.0 // indirect
